@@ -4,8 +4,8 @@
 
 body{
     font-family:"Spicy Rice", serif; /* sans-serif*/
-    color: hsl(210, 4%, 27%);
-    background: rgb(114, 112, 113);
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 1%, 47%);
 }
 
 a{
@@ -71,7 +71,81 @@ header .perfil img {
 
 #header .perfil .social-link i:hover {
     color: whitesmoke;
-    background: gray;
+    background: #666;
     transition:  all 0.3s;
 
 }
+/* fim header */
+#main {
+    margin-left: 300px;
+}
+.container, .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*Navigation Menu*/
+/*Desktop Navigation*/
+.nav-menu {
+    padding: 30px 0 0 0;
+}
+
+.nav-menu  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: hsl(0, 5%, 71%);
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/*icones menu*/
+.nav-menu a i,
+.nav-menu a:focus i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #f1f1f1;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover>a i {
+    text-decoration: none;
+    color: #292828;
+}
+
+/*Mobile Menu*/
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background: hsl(0, 1%, 25%);
+    color: #f1f1f1;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
