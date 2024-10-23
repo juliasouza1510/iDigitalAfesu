@@ -202,7 +202,7 @@ header .perfil img {
     font-family: "Poppins";
 }
 #hero p {
-    color: #fff;
+    color: #c0b9b9;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "sans-serif";
@@ -236,7 +236,7 @@ section {
     overflow: hidden;
 }
 .section-bg{
-    background: #fafafa;
+    background: hsl(0, 3%, 77%);
 }
 .section-title {
     padding-bottom: 30px;
@@ -263,7 +263,7 @@ section {
 .section-title p {
     margin-bottom: 0;
     color: black;
-    font-family: "open Sans";
+    font-family: "Poppins";
 }
 /*# About*/
 
@@ -280,6 +280,27 @@ section {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    color: white;
     font-weight: 100;
+}
+.about .content ul strong{
+    margin-right: 10px;
+    color: hwb(0 20% 80%);
+    font-weight: 200;
+}
+.about .content ul span {
+    color: #474545;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.about .content p {
+    color: #c7ced3;
+    font-family: "Poppins";
+    font-weight: 600;
+    /*font-size: ; opcional*/
+}
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: hwb(200 28% 71%);
+    line-height: 0;
 }
